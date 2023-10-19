@@ -9,6 +9,7 @@ import PageChange from "components/PreLoader/index.js";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
+
 Router.events.on("routeChangeStart", (url) => {
   console.log(`Loading: ${url}`);
   document.body.classList.add("body-page-transition");
@@ -27,6 +28,8 @@ Router.events.on("routeChangeError", () => {
 });
 
 export default class MyApp extends App {
+  
+
   componentDidMount() {
     let comment = document.createComment(`
 

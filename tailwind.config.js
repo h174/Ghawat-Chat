@@ -6,6 +6,8 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./layouts/**/*.{js,ts,jsx,tsx}",
+    "./db/**/*.{js,ts,jsx,tsx}",
+
   ],
 
   theme: {
